@@ -1,0 +1,16 @@
+${id_user},${email_user},${expected_status}
+USR01,user1@test.com,valid
+USR02,user2@test.com,valid
+USR03,user3@test.com,valid
+USR04,user4@test.com,valid
+USR05,user5@test.com,valid
+USR06,user6@test.com,valid
+USR07,user7@test.com,valid
+USR08,user8@test.com,valid
+USR09,user9@test.com,valid
+USR10,user10@test.com,valid
+USR01,user1@test.com,invalid_primary_key
+USR11,user2@test.com,invalid_unique_email
+USR12,user3@test.com,invalid_unique_email
+,user13@test.com,invalid_frontend
+USR13,,invalid_frontend

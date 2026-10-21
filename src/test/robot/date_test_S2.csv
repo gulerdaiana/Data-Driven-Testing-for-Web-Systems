@@ -1,0 +1,21 @@
+${id},${email},${service},${price},${cycle},${expected_status}
+SUB01,admin@test.com,Netflix,15.99,monthly,valid
+SUB02,admin@test.com,Spotify,9.99,monthly,valid
+SUB03,admin@test.com,Adobe Cloud,49.99,annually,valid
+SUB04,admin@test.com,YouTube Premium,11.99,monthly,valid
+SUB05,admin@test.com,Dropbox,99.99,annually,valid
+SUB06,admin@test.com,Premium Service,250.00,monthly,invalid_price_high
+SUB07,admin@test.com,Enterprise Pack,250.01,annually,invalid_price_high
+SUB08,admin@test.com,Gold Plan,599.99,monthly,invalid_price_high
+SUB09,admin@test.com,Ultra Package,1000.00,annually,invalid_price_high
+SUB10,admin@test.com,Wrong Price,-5.00,monthly,invalid_price_high
+SUB11,admin@test.com,Test Service,14.99,weekly,invalid_cycle_check
+SUB12,admin@test.com,Test Service,7.99,daily,invalid_cycle_check
+SUB13,admin@test.com,Test Service,40.00,quarterly,invalid_cycle_check
+SUB14,admin@test.com,Test Service,12.00,biweekly,invalid_cycle_check
+SUB15,admin@test.com,Test Service,89.00,hourly,invalid_cycle_check
+SUB16,ghost_user@test.com,Skiff Mail,4.99,monthly,invalid_foreign_key
+SUB17,fake_account@test.com,GeForceNow,19.99,annually,invalid_foreign_key
+SUB18,unknown@test.com,Office 365,69.99,annually,invalid_foreign_key
+,admin@test.com,GitHub Copilot,10.00,monthly,invalid_frontend
+SUB19,admin@test.com,,0.00,monthly,invalid_frontend

@@ -1,0 +1,4 @@
+${id},${email},${service},${price},${cycle},${expected_status}
+SUB_CONC_01,admin@test.com,Netflix,15.99,monthly,lock_violation
+SUB_CONC_02,admin@test.com,Spotify,9.99,monthly,lock_violation
+SUB_CONC_03,admin@test.com,HBO Max,14.99,monthly,lock_violation
